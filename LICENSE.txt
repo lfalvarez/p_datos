@@ -1,0 +1,11 @@
+--2017-12-26 15:29:19--  https://raw.githubusercontent.com/LSLSpanish/translation_GPLv3_to_spanish/master/GPLv3-spanish.txt
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.0.133, 151.101.64.133, 151.101.128.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.0.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14095 (14K) [text/plain]
+Saving to: ‘GPLv3-spanish.txt’
+
+     0K .......... ...                                        100%  190K=0.07s
+
+2017-12-26 15:29:19 (190 KB/s) - ‘GPLv3-spanish.txt’ saved [44215]
+
