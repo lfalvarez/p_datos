@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    $(function(){
+        new d3plus.LinePlot()
+            .data(data)
+            .groupBy("tipo")
+            .x('ano')
+            .y('monto')
+            .select('#lineas')
+            .render();
+        });
+    </script>
+<div id="lineas"></div>

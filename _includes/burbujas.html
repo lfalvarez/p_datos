@@ -1,0 +1,18 @@
+<script type="text/javascript">
+    $(function(){
+        
+        var treemap = new d3plus.Treemap()
+          .data(data)
+          .groupBy("beneficiario")
+          .sum(function(d){
+            return d.monto;
+          })
+          .label(function(d){
+            return d.beneficiario;
+          })
+          .select('#subsidios');
+        
+        treemap.render();
+    });
+</script>
+<div id="subsidios"></div>

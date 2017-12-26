@@ -1,0 +1,25 @@
+<script type="text/javascript">
+$(function(){
+
+    var chart = new d3plus.Geomap()
+          .data(data)
+          .select('#mapa')
+          .topojson('jsons/mx_tj.json', function(data){
+            data.objects.states.geometries.forEach(function(part, index, theArray){
+              name = part.properties.state_name.toUpperCase();
+              data.objects.states.geometries[index]['id'] = part.properties.state_name.toUpperCase();
+            })
+            return data;
+
+          })
+          .topojsonKey('states')
+          .groupBy('estado')
+          .label(function(d) {
+            return d.estado + "<br >"+ d.monto;
+          })
+          .colorScale("monto");
+    chart.render();
+});
+
+</script>
+<div id="mapa"></div>
