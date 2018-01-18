@@ -3,4 +3,3 @@ layout: home
 ---
 {% include burbujas.html %}
 {% include gasolina_por_estado.html %}
-{% include gasolina_por_ano.html %}
