@@ -2,8 +2,55 @@
 ---
 
 @import "variables";
-@import "nav";
 
-body {
-  font-family: $opensans;
+// general
+
+body{
+    color: $blue-two;
+    font-size: 14px;
+    font-family: $opensans;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+p{
+    margin: 0 0 2em 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// headlines
+
+h1 {
+  font-family: $nunito;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+h3 {
+  font-family: $nunito;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+// colors
+
+.white {
+  color: white;
+}
+
+// hero
+
+.bg-dark-alfa-90:before,
+.bg-dark-alfa-90 .YTPOverlay:before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $blue-two;
+    mix-blend-mode: multiply;
 }
