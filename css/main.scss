@@ -29,15 +29,32 @@ h1 {
   font-size: 55px;
 }
 
+h2 {
+  font-family: $nunito;
+  font-weight: bold;
+  font-size: 36px;
+}
+
 h3 {
   font-family: $nunito;
   font-weight: bold;
   font-size: 24px;
 }
 
+h4 {
+  font-family: $nunito;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 // colors
 
 .white {
+  color: white;
+}
+
+.bg-blue {
+  background-color: $blue-one;
   color: white;
 }
 
