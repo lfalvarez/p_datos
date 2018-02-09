@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Sobre el proyecto
 
 Pescando Datos es una iniciativa dirigida desde la sociedad civil para difundir y transparentar la implementación de los subsidios pesqueros, en términos de si estos cumplen con criterios de equidad, beneficio social y conservación de pesquerías. La iniciativa comprende la construcción de una plataforma virtual alimentada con información oficial sobre el manejo y subsidios otorgados en el sector, buscando con ello visibilizar el estatus de su asignación y proporcionar mecanismos de análisis y evaluación de los mismos.

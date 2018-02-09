@@ -20,7 +20,7 @@ p{
 a {
   color: $lightblue;
   &:hover {
-    darken( $lightblue, 10% )
+    color: darken( $lightblue, 10% );
   }
 }
 
