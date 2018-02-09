@@ -21,12 +21,33 @@ p{
   text-align: center;
 }
 
+.small {
+  font-size: 12px;
+}
+
+.badge {
+  font-size: 12px;
+  font-family: $nunito;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.badge-primary {
+  background: $lightblue;
+}
+
+.badge-secondary {
+  background: $blue-three;
+}
+
 // headlines
 
 h1 {
   font-family: $nunito;
   font-weight: bold;
-  font-size: 55px;
+  font-size: calc(2rem + 3vw);
 }
 
 h2 {
@@ -38,7 +59,7 @@ h2 {
 h3 {
   font-family: $nunito;
   font-weight: bold;
-  font-size: 24px;
+  font-size: calc(1.5rem + 1vw);
 }
 
 h4 {
@@ -53,8 +74,25 @@ h4 {
   color: white;
 }
 
+.blue-two {
+  color: $blue-two;
+}
+
+.blue-three {
+  color: $blue-three;
+}
+
 .bg-blue {
   background-color: $blue-one;
+  color: white;
+}
+
+.bg-blue-five {
+  background-color: $blue-five;
+}
+
+.bg-lightblue {
+  background-color: $lightblue;
   color: white;
 }
 
