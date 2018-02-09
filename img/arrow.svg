@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1107.000000, -4570.000000)">
+        <g id="Group-2" transform="translate(685.000000, 4538.000000)">
+            <g id="Group-11-Copy" transform="translate(422.000000, 32.000000)">
+                <circle id="Oval" fill="#FFC80A" cx="32.5" cy="32.5" r="32.5"></circle>
+                <polygon id="Stroke-1" stroke-opacity="0.00784313771" stroke="#000000" stroke-width="1.33333335e-11" points="4 10 59 10 59 73 4 73"></polygon>
+                <path d="M30.360807,14.2994386 L29.7610341,14.9016806 C29.36356,15.300847 29.36356,15.9480654 29.7610341,16.347317 L44.9011665,31.5519251 L13.0178583,31.5519251 C12.4557461,31.5519251 12,32.009612 12,32.574118 L12,33.4259454 C12,33.9904526 12.4557461,34.4481383 13.0178583,34.4481383 L44.9011665,34.4481383 L29.7610341,49.6527454 C29.36356,50.0519121 29.36356,50.6991298 29.7610341,51.0983824 L30.360807,51.7006249 C30.7582811,52.0997917 31.4027544,52.0997917 31.8002284,51.7006249 L49.7018945,33.7228059 C50.0993685,33.3236392 50.0993685,32.6764214 49.7018945,32.277169 L31.8002284,14.2994386 C31.4027544,13.9001871 30.7582811,13.9001871 30.360807,14.2994386 Z" id="Fill-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

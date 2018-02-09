@@ -17,12 +17,27 @@ p{
     margin: 0 0 2em 0;
 }
 
+a {
+  color: $lightblue;
+  &:hover {
+    darken( $lightblue, 10% )
+  }
+}
+
 .text-center {
   text-align: center;
 }
 
-.small {
+.text-small {
   font-size: 12px;
+}
+
+.small {
+  font-family: $nunito;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
 }
 
 .badge {
@@ -59,7 +74,7 @@ h2 {
 h3 {
   font-family: $nunito;
   font-weight: bold;
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(1rem + 1vw);
 }
 
 h4 {
